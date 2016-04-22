@@ -1,6 +1,7 @@
 .jumbotron {
   margin-top: 0px;
   font-family: 'Lobster', cursive;
+  background: linear-gradient(#9a9a9a, #dafcff);
 }
 
 .input {
@@ -9,4 +10,8 @@
 
 .center{
   text-align: center;
+}
+
+body{
+  background-color: #dafcff;
 }
