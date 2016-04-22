@@ -18,13 +18,13 @@ with "-".
 ###Input
 1) app
 2) paper
-3) iodine
+3) idea
 4) orange
 5) united
 
 ###Output
 1) -pp
 2) p-p-r
-3) -od-n-
+3) -d--
 4) -r-ng-
 5) -n-t-d

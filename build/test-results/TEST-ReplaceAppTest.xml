@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ReplaceAppTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-22T16:29:28" hostname="LAPTOP-0DBIB10J" time="0.006">
+<testsuite name="ReplaceAppTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-04-22T16:38:35" hostname="LAPTOP-0DBIB10J" time="0.006">
   <properties/>
-  <testcase name="ReplaceApp_RelaceAInWord_pple" classname="ReplaceAppTest" time="0.005"/>
-  <testcase name="ReplaceApp_ReplaceAEInWord_ppl" classname="ReplaceAppTest" time="0.0"/>
+  <testcase name="ReplaceApp_ReplaceAEWithinWord_papr" classname="ReplaceAppTest" time="0.005"/>
+  <testcase name="ReplaceApp_RelaceAWithinWord_pple" classname="ReplaceAppTest" time="0.0"/>
+  <testcase name="ReplaceApp_ReplaceAEIWithinWord_d" classname="ReplaceAppTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
