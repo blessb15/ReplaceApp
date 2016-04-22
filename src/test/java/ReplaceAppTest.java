@@ -1,12 +1,12 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 
-public class ScrabbleTest {
+public class ReplaceAppTest {
 
   @Test
   public void Scrabble_SingleLetterReturnValue_True() {
-    Scrabble getScrabble = new Scrabble();
-    Integer num = 5;
-    assertEquals(num,getScrabble.getScore("aeiou"));
+    ReplaceApp getWord = new ReplaceApp();
+    String expected = "-pple";
+    assertEquals(expected,getWord.replaceIt("apple"));
   }
 }
