@@ -30,4 +30,11 @@ public class ReplaceAppTest {
     String expected = "-r-ng-";
     assertEquals(expected,getWord.replaceIt("orange"));
   }
+
+  @Test
+  public void ReplaceApp_ReplaceAEIOUWithinWord_ntd() {
+    ReplaceApp getWord = new ReplaceApp();
+    String expected = "-n-t-d";
+    assertEquals(expected,getWord.replaceIt("united"));
+  }
 }

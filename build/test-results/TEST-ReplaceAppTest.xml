@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ReplaceAppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-04-22T16:42:54" hostname="LAPTOP-0DBIB10J" time="0.006">
+<testsuite name="ReplaceAppTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-04-22T16:47:45" hostname="LAPTOP-0DBIB10J" time="0.009">
   <properties/>
-  <testcase name="ReplaceApp_ReplaceAEWithinWord_papr" classname="ReplaceAppTest" time="0.004"/>
+  <testcase name="ReplaceApp_ReplaceAEWithinWord_papr" classname="ReplaceAppTest" time="0.005"/>
   <testcase name="ReplaceApp_ReplaceAEIOWithinWord_rng" classname="ReplaceAppTest" time="0.0"/>
   <testcase name="ReplaceApp_RelaceAWithinWord_pple" classname="ReplaceAppTest" time="0.0"/>
   <testcase name="ReplaceApp_ReplaceAEIWithinWord_d" classname="ReplaceAppTest" time="0.0"/>
+  <testcase name="ReplaceApp_ReplaceAEIOUWithinWord_chs" classname="ReplaceAppTest" time="0.0"/>
+  <testcase name="ReplaceApp_ReplaceAEIOUWithinWord_ntd" classname="ReplaceAppTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

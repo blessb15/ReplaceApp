@@ -12,8 +12,8 @@ public class ReplaceApp {
     String replaceAE = replaceA.replace(wordVowels[1],'-');
     String replaceAEI = replaceAE.replace(wordVowels[2],'-');
     String replaceAEIO = replaceAEI.replace(wordVowels[3],'-');
-    // String replaceAEIOU = replaceAEIO.replace(wordVowels[4],'-');
-    return replaceAEIO;
+    String replaceAEIOU = replaceAEIO.replace(wordVowels[4],'-');
+    return replaceAEIOU;
 
     }
   }
