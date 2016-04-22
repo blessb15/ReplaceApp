@@ -1,4 +1,4 @@
-###Behaviors                                            
+###Behaviors                                          
 1) user enters word and
 any instances of "a" are replaced
 with "-".
