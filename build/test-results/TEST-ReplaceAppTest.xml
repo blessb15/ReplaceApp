@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ReplaceAppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T16:02:37" hostname="LAPTOP-0DBIB10J" time="0.004">
+<testsuite name="ReplaceAppTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-22T16:29:28" hostname="LAPTOP-0DBIB10J" time="0.006">
   <properties/>
-  <testcase name="Scrabble_SingleLetterReturnValue_True" classname="ReplaceAppTest" time="0.004"/>
+  <testcase name="ReplaceApp_RelaceAInWord_pple" classname="ReplaceAppTest" time="0.005"/>
+  <testcase name="ReplaceApp_ReplaceAEInWord_ppl" classname="ReplaceAppTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -16,15 +16,15 @@ any instance of "a,e,i,o,u" are replaced
 with "-".
 
 ###Input
-1) apple
-2) apple
+1) app
+2) paper
 3) iodine
 4) orange
 5) united
 
 ###Output
-1) -pple
-2) -ppl-
+1) -pp
+2) p-p-r
 3) -od-n-
 4) -r-ng-
 5) -n-t-d
