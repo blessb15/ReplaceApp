@@ -1,4 +1,4 @@
-###Behaviors###                                            
+###Behaviors                                          
 1) user enters word and
 any instances of "a" are replaced
 with "-".
@@ -15,14 +15,14 @@ with "-".
 any instance of "a,e,i,o,u" are replaced
 with "-".
 
-###Input###
+###Input
 1) apple
 2) apple
 3) iodine
 4) orange
 5) united
 
-###Output###
+###Output
 1) -pple
 2) -ppl-
 3) -od-n-
