@@ -18,19 +18,21 @@ public class AppTest extends FluentTest {
   public static ServerRule server = new ServerRule();
 
   @Test
-  public void rootTest() {
+  public void Homepage1Test() {
     goTo("http://localhost:4567/");
     assertThat(pageSource()).contains("What is That Word?");
   }
 
   @Test
-  public void rootTest() {
+  public void Detectorpage2Test() {
     goTo("http://localhost:4567/");
-    assertThat(pageSource()).contains("Take a guess");
+    fill("#input").with("apple");
+    submit(".btn");
+    assertThat(pageSource()).contains("Take a Guess!");
   }
 
   @Test
-  public void rootTest() {
+  public void replacewordTest() {
     goTo("http://localhost:4567/");
     fill("#input").with("apple");
     submit(".btn");
