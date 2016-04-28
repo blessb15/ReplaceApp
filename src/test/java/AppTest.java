@@ -18,13 +18,13 @@ public class AppTest extends FluentTest {
   public static ServerRule server = new ServerRule();
 
   @Test
-  public void Homepage1Test() {
+  public void RootTest() {
     goTo("http://localhost:4567/");
     assertThat(pageSource()).contains("What is That Word?");
   }
 
   @Test
-  public void Detectorpage2Test() {
+  public void RootTest2() {
     goTo("http://localhost:4567/");
     fill("#input").with("apple");
     submit(".btn");
