@@ -37,6 +37,5 @@ Thumbs.db
 
 # Java #
 ########
-build
+build/
 .gradle/
-*.md
